@@ -404,7 +404,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-dark bg-dark \">\r\n  <a class=\"navbar-brand\" href=\"#\">Home</a>\r\n\r\n  <ul class=\"navbar-nav\">\r\n    <li class=\"nav-item active\">\r\n\r\n\r\n      <form #newContactForm=\"ngForm\" (ngSubmit)=\"newContact()\" class=\"form-inline my-2 my-lg-0\">\r\n        <input #name required minlength=\"1\" class=\"form-control mr-sm-2\" name=\"name\" placeholder=\"name\" [(ngModel)]=\"contact.name\">\r\n        <input #email required minlength=\"1\" class=\"form-control mr-sm-2\" name=\"email\" placeholder=\"email\" [(ngModel)]=\"contact.email\">\r\n        <input #phone required minlength=\"1\" class=\"form-control mr-sm-2\" name=\"phone\" placeholder=\"phone\" [(ngModel)]=\"contact.phone\">\r\n        <input #address required minlength=\"1\" class=\"form-control mr-sm-2\" name=\"address\" placeholder=\"address\" [(ngModel)]=\"contact.address\">\r\n        <button class=\"btn btn-outline-success my-2 my-sm-0\" [disabled]=\"!newContactForm.valid\">Add</button>\r\n      </form>\r\n    </li>\r\n\r\n\r\n  </ul>\r\n</nav>\r\n"
+module.exports = "<nav class=\"navbar  navbar-expand-lg navbar-dark bg-dark \">\r\n  <a class=\"navbar-brand\" href=\"#\">Home</a>\r\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarText\" aria-controls=\"navbarText\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n  <div class=\"collapse navbar-collapse\" id=\"navbarText\">\r\n  <ul class=\"navbar-nav\">\r\n    <li class=\"nav-item active\">\r\n\r\n      <form #newContactForm=\"ngForm\" (ngSubmit)=\"newContact()\" class=\"form-inline my-2 my-lg-0\">\r\n        <input #name required minlength=\"1\" class=\"form-control mr-sm-2\" name=\"name\" placeholder=\"name\" [(ngModel)]=\"contact.name\">\r\n        <input #email required minlength=\"1\" class=\"form-control mr-sm-2\" name=\"email\" placeholder=\"email\" [(ngModel)]=\"contact.email\">\r\n        <input #phone required minlength=\"1\" class=\"form-control mr-sm-2\" name=\"phone\" placeholder=\"phone\" [(ngModel)]=\"contact.phone\">\r\n        <input #address required minlength=\"1\" class=\"form-control mr-sm-2\" name=\"address\" placeholder=\"address\" [(ngModel)]=\"contact.address\">\r\n        <button class=\"btn btn-outline-success my-2 my-sm-0\" [disabled]=\"!newContactForm.valid\">Add</button>\r\n      </form>\r\n    </li>\r\n\r\n  </ul>\r\n  </div>\r\n</nav>\r\n"
 
 /***/ }),
 
@@ -582,7 +582,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Alex\Desktop\public_repo\Rolodex REST App with MEAN stack\client\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\Alex\Desktop\Rolodex-wExpress-REST-API\client\src\main.ts */"./src/main.ts");
 
 
 /***/ })
