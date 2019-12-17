@@ -21,5 +21,4 @@ As a result, if any changes are made to the client side, the contents of the
 dist folder will need to be deleted, and the updated app will need to be 
 recompiled with the Angular CLI (using ng build).
 
-A link to a working iteration of the application can be found at my 
-personal site www.alex-g-portfolio.me
+
