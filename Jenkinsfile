@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'touch newFile.txt'
+        sh '''touch newFile.txt
+pwd
+ls'''
       }
     }
 
