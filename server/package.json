@@ -14,7 +14,7 @@
     "express-flash": "0.0.2",
     "express-session": "^1.15.6",
     "http-errors": "~1.6.2",
-    "mongoose": "^5.4.20",
+    "mongoose": "^5.7.5",
     "morgan": "~1.9.0",
     "nodemon": "^1.18.10",
     "pug": "^2.0.3"
